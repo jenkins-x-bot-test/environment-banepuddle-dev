@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:banepuddle/adminUser:password
+  username: admin
+dashboardAuthID: vault:banepuddle:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:banepuddle:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:banepuddle/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:banepuddle/prow:hmacToken
